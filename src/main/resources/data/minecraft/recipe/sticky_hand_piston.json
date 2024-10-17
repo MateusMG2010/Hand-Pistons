@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "hand_pistons:hand_piston"
+    }
+  ],
+  "result": {
+    "id": "hand_pistons:sticky_hand_piston",
+    "count": 1
+  }
+}

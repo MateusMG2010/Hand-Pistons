@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "hand_pistons",
+  "version": "${version}",
+  "name": "Hand Pistons",
+  "description": "A mod that adds Hand Pistons.",
+  "authors": [
+    "@MateusMG2010"
+  ],
+  "contact": {
+    "homepage": "https://www.modrinth.com/mod/Hand-Pistons",
+    "sources": "https://github.com/MateusMG2010/Hand-Pistons"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/hand_pistons/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mgstudios.hand_pistons.HandPistons"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
